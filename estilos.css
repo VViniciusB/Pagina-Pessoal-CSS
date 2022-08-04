@@ -27,6 +27,7 @@ video{
     border: solid 2px;
     display: block;
     margin: 1% auto;
+    min-width: 150px;
 }
 
 main{
@@ -47,11 +48,21 @@ h3{
 }
 /*altura e largura maxima da caixa da imagem, margin-> centralizar, no html a imagem fica 100% dimensoes*/
 figure{
+    
     width: 80%;
     height: 100%;
     border: solid 2px;
     display: block;
     margin: 1% auto;
+    min-width: 150px;
+    /*
+    display:block;
+    width: 95%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left:auto;
+    */
+
 }
 
 p {
